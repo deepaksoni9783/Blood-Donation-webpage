@@ -1,0 +1,167 @@
+.logo{
+    float: left;
+    height: 30px;
+}
+.logo img {
+    margin-left: 49px;
+    margin-top: 16px;
+    height: 60px;
+}
+
+
+.right ul{
+    float: right;
+    
+}
+
+.right ul li{
+        display: inline;
+        padding-left: 20px;
+        padding-left: 29px;
+        font-size: 44px;
+        margin-right: 46px;
+}
+
+.main img{
+    
+    height:360px;
+    width: 100%;
+}
+
+
+.camp{
+    height: 200px;
+    width: 100%;
+}
+.camp h1 {
+    text-align: center;
+    font-size: 58px;
+}
+
+.camp p {
+    text-align: center;
+    font-size: 39px;
+}
+
+.comp .column {
+    float: left;
+    width: 34%;
+    padding: 10px;
+    height: 300px;
+    padding-left: -51px;
+    margin-left: 10%;
+    background-color: darkgrey;
+}
+/* Clear floats after the columns */
+.comp .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.comp3 .column {
+    float: left;
+    width: 34%;
+    padding: 10px;
+    height: 300px;
+    padding-left: -51px;
+    margin-left: 10%;
+    margin-top: 16px;
+    background-color: darkgrey;
+
+}
+/* Clear floats after the columns */
+.comp3 .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.footer{
+    background-color: black;
+    height: 600px;
+    margin-top: 14px;
+}
+
+.footer img {
+    width: 160px;
+    height: 167px;
+    margin-top: 69px;
+    margin-left: 173px;
+}
+
+
+
+.para p {
+    color: whitesmoke;
+    float: right;
+    margin-left: 29pc;
+    font-size: 34px;
+    margin-top: -198px;
+}
+
+.footer .column {
+    float: left;
+    width: 31.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+/* Clear floats after the columns */
+.footer .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer li{
+    color: wheat;
+    font-size: 27px;
+}
+.footer h2{
+    color: white;
+    font-size: 35px;
+}
+
+
+.iml img {
+    height: 100%;
+}
+
+
+.abc h3 {
+    float: right;
+    font-size: 38px;
+    text-align: center;
+    margin-top: -307px;
+}
+
+
+.comp p {
+    float: right;
+    margin-top: -241px;
+    font-size: 21px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin-right: 21px;
+}
+
+
+.comp3 p {
+    float: right;
+    margin-top: -241px;
+    font-size: 21px;
+    text-align: center;
+    background-color: black;
+    color: whitesmoke;
+    margin-right: 21px;
+}
+
+
+.info h5{
+    
+        margin-top: -165px;
+        float: left;
+        margin-left: 262px;
+        font-size: 21px;
+    }

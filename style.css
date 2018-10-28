@@ -1,0 +1,355 @@
+.logo{
+    float: left;
+    height: 30px;
+}
+.logo img {
+    margin-left: 49px;
+    margin-top: 16px;
+    height: 60px;
+}
+
+
+.right ul{
+    float: right;
+    
+}
+
+.right ul li{
+        display: inline;
+        padding-left: 20px;
+        padding-left: 29px;
+        font-size: 44px;
+        margin-right: 46px;
+}
+
+.main img{
+    
+    height:360px;
+    width: 100%;
+}
+
+
+.vh{
+        margin-left: 10%;
+        height: 160px;
+        background-color: darkgrey;
+        margin-right: 10%;
+    }
+
+
+    .vh h1{
+        font-family: cursive;
+    }
+
+    .vh pre {
+        font-family: serif;
+        margin-left: 61px;
+        font-size: 24px;
+    }
+
+
+
+
+.apt-btn button{
+    
+        float: right;
+        margin-right: 12%;
+        margin-top: -116px;
+        
+            padding: 15px 25px;
+            font-size: 24px;
+            text-align: center;
+            cursor: pointer;
+            outline: none;
+            color: #fff;
+            background-color: #4CAF50;
+            border: none;
+            border-radius: 15px;
+            box-shadow: 0 9px #999;
+          
+}
+
+.apt{
+
+    width: 100%;
+    
+    
+}
+.apt h1 {
+    font-size:   62px;
+    text-align: center;
+}
+
+
+.apt h3 {
+    text-align: center;
+    font-size: 35px;
+}
+.row{
+    width: 100%;
+}
+
+.column {
+    float: left;
+    width: 23%;
+    padding: 10px;
+    height:  354px;
+    margin-left: 6px;
+}
+
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.column img {
+    width: 87%;
+    margin-left: 19px;
+    height: 200px;
+}
+
+
+.column p {
+    font-size: 25px;
+    font-family: serif;
+    color: white;
+}
+
+
+.abc{
+    background-color: darkgoldenrod;
+}
+
+
+.up{
+    height: 274px;
+    background-color: #999;
+}
+.up h1 {
+    text-align: center;
+    font-size: 65px;
+}
+
+
+.up button {
+    font-size: 30px;
+    align-items: center;
+    margin-left: 41%;
+    border: currentColor;
+    border-style: groove;
+    border-radius: 32px;
+    background-color: black;
+    color: antiquewhite;
+}
+
+
+.bn img {
+    width: 77%;
+    margin-left: 11.5%;
+    margin-right: 7.5%;
+}
+
+.bn{
+    background-color: darkslategrey;
+}
+
+
+.footer{
+    background-color: black;
+    height: 600px;
+}
+
+.footer img {
+    width: 160px;
+    height: 167px;
+    margin-top: 69px;
+    margin-left: 173px;
+}
+
+
+
+.para p {
+    color: whitesmoke;
+    float: right;
+    margin-left: 29pc;
+    font-size: 34px;
+    margin-top: -198px;
+}
+
+.footer .column {
+    float: left;
+    width: 31.33%;
+    padding: 10px;
+    height: 300px;
+}
+
+/* Clear floats after the columns */
+.footer .row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.footer li{
+    color: wheat;
+    font-size: 27px;
+}
+.footer h2{
+    color: white;
+    font-size: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.open-button {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    position: fixed;
+    bottom: 23px;
+    right: 28px;
+    width: 280px;
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input[type=text]:focus, .form-container input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  /* Add a red background color to the cancel button */
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  /* Add some hover effects to buttons */
+  .form-container .btn:hover, .open-button:hover {
+    opacity: 1;
+  }
+  
+
+
+  .simplemenu {
+    background-color: rgba(130,130,130,0.5);
+    position: relative;}
+  
+  .dropbtn {
+      background-color: #12355B;
+      color: white;
+      padding: 1rem;
+      font-size: 1.5rem;
+      border: none;
+      cursor: pointer;
+      font-family: Baloo, sans-serif;    
+    }
+  .dropbtn:hover, .dropbtn:focus {
+      background-color: #046e8f;
+  }
+  
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      overflow: hidden;
+      width: 100%;
+      list-style-type: none;
+      margin-top: 0;
+      padding-left: 0;
+  }
+  .dropdown-content a {
+      color: black;
+      padding: 0.8rem 1rem;
+      text-decoration: none;
+      display: block;
+      font-family: 'Open Sans', sans-serif;
+  }
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .show {display:block;}
+
+
+
+
+
+
+ .gallery .column {
+    float: left;
+    width: 28.33%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.gallery .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+.gallery {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+
+.galley-head {
+    text-align: center;
+    font-size: 31px;
+}
+
+.gallery .column img{
+    height: 95%;
+}
